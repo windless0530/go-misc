@@ -35,6 +35,11 @@ func testVechicle() {
 	a.Run()
 }
 
+func testUnion() {
+	util.PrintMyInteger[int32](1e8)
+	util.PrintMyInteger[int8](10)
+}
+
 func main() {
-	testVechicle()
+	testUnion()
 }
